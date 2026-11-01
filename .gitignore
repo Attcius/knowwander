@@ -1,0 +1,36 @@
+# ===== 依赖目录 =====
+node_modules/
+
+# ===== 环境变量（含真实 API Key，严禁提交）=====
+.env
+.env.local
+.env.*.local
+
+# ===== 构建产物 =====
+dist/
+build/
+*.tsbuildinfo
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== 编辑器 / 系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 课程资料目录（仅本地保留，不上传仓库）=====
+旅游推荐全栈项目资料/
+
+# ===== 源码压缩包（与目录内容重复且已过时）=====
+knowwander/server.zip
+knowwander/travel-h5.zip
+
+# ===== 旧目录（改名后的残留空壳，待手动删除）=====
+智能景点推荐全栈源码/
